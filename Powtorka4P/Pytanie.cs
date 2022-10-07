@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Powtorka4P
 {
-    public class Pytanie
+    public class Pytanie // ♥
     {
         public int nrPytania { get; set; }
         public string trescPytania { get; set; }
@@ -21,12 +21,6 @@ namespace Powtorka4P
             this.odpowiedzi = odpowiedzi;
             this.odpowiedzOK = odpowiedzOK;
         }
-
-
-
-        //  ()()
-        // =('-')=
-        //  (")(")
     }
 
 }

@@ -8,9 +8,9 @@
         Title="Quiz" Height="450" Width="800" WindowState="Maximized">
     <StackPanel Orientation="Vertical">
         <TextBlock x:Name="tresc" Text="Pytanie 1" FontSize="25"/>
-        <RadioButton x:Name="odpA" Content="odpA" GroupName="odpowiedzi"/>
-        <RadioButton x:Name="odpB" Content="odpB" GroupName="odpowiedzi"/>
-        <RadioButton x:Name="odpC" Content="odpC" GroupName="odpowiedzi"/>
-        <Button FontSize="25">Sprawdź</Button>
+        <RadioButton x:Name="odpA" Content="odpA" GroupName="odpowiedziGN" Checked="wybrany_Checked"/>
+        <RadioButton x:Name="odpB" Content="odpB" GroupName="odpowiedziGN" Checked="wybrany_Checked"/>
+        <RadioButton x:Name="odpC" Content="odpC" GroupName="odpowiedziGN" Checked="wybrany_Checked"/>
+        <Button FontSize="25" Click="Sprawdz_Click">Sprawdź</Button>
     </StackPanel>
 </Window>
