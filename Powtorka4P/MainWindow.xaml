@@ -1,0 +1,16 @@
+﻿<Window x:Class="Powtorka4P.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Powtorka4P"
+        mc:Ignorable="d"
+        Title="Quiz" Height="450" Width="800" WindowState="Maximized">
+    <StackPanel Orientation="Vertical">
+        <TextBlock x:Name="tresc" Text="Pytanie 1" FontSize="25"/>
+        <RadioButton x:Name="odpA" Content="odpA" GroupName="odpowiedzi"/>
+        <RadioButton x:Name="odpB" Content="odpB" GroupName="odpowiedzi"/>
+        <RadioButton x:Name="odpC" Content="odpC" GroupName="odpowiedzi"/>
+        <Button FontSize="25">Sprawdź</Button>
+    </StackPanel>
+</Window>
